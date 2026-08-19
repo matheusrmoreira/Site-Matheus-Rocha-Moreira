@@ -1,0 +1,77 @@
+body {
+    background-image: url('../arquivos/Logo MRM em fundo azul escuro.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+main.main {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+main.main form {
+    display: flex;
+    flex-direction: column;
+    }
+
+main.main button[type="submit"] {
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+}
+
+main.main button[type="reset"] {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+}
